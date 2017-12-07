@@ -2,14 +2,78 @@
 <html>
     <head>
         <title>Portfoliopage</title>
+        
+        <style>
+         body{
+               background-image: url("background3.jpg");
+               background-position : center;
+               background-attachment: fixed;
+               font-family: Helvetica;
+               
+              
+           }
+            
+            ul {
+                    position: fixed;
+    top: 0;
+    width : 100%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+    
+}
+
+li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+
+
+.active{
+    background-color: black;
+    color: white;
+}
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+        </style>
+        
+        
+        
+        
     </head>
 
     <body>
     
-    <a href ="homepage.html">Click here for my homepage!</a>
-    <br>
-    <a href ="biopage.html">Click here for my bio!</a>
-    <br>
+    <ul>
+  <li><a href="homepage.html" class="active">Home</a></li>
+  <li><a href="biopage.html" >About Me</a></li>
+  <li><a href="portfoliopage.html">Portfolio</a></li>
+  
+</ul>
     
     </body>
 
